@@ -1,0 +1,90 @@
+2022-10-09/12:08:19		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/12:08:19		Data read successfully. Returning dataframe
+2022-10-09/12:08:19		Leaving read_data method of stage_1 class
+2022-10-09/12:08:41		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/12:08:41		Data read successfully. Returning dataframe
+2022-10-09/12:08:41		Leaving read_data method of stage_1 class
+2022-10-09/12:17:17		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/12:17:18		Data read successfully. Returning dataframe
+2022-10-09/12:17:18		Leaving read_data method of stage_1 class
+2022-10-09/12:29:33		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/12:29:34		Data read successfully. Returning dataframe
+2022-10-09/12:29:34		Leaving read_data method of stage_1 class
+2022-10-09/12:30:22		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/12:30:22		Data read successfully. Returning dataframe
+2022-10-09/12:30:22		Leaving read_data method of stage_1 class
+2022-10-09/12:35:54		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/12:35:55		Data read successfully. Returning dataframe
+2022-10-09/12:35:55		Leaving read_data method of stage_1 class
+2022-10-09/12:36:40		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/12:36:41		Data read successfully. Returning dataframe
+2022-10-09/12:36:41		Leaving read_data method of stage_1 class
+2022-10-09/12:58:30		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/12:58:31		Data read successfully. Returning dataframe
+2022-10-09/12:58:31		Leaving read_data method of stage_1 class
+2022-10-09/12:59:02		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/12:59:03		Data read successfully. Returning dataframe
+2022-10-09/12:59:03		Leaving read_data method of stage_1 class
+2022-10-09/12:59:58		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/12:59:59		Data read successfully. Returning dataframe
+2022-10-09/12:59:59		Leaving read_data method of stage_1 class
+2022-10-09/13:03:00		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/13:03:00		Data read successfully. Returning dataframe
+2022-10-09/13:03:00		Leaving read_data method of stage_1 class
+2022-10-09/13:10:01		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/13:10:01		Data read successfully. Returning dataframe
+2022-10-09/13:10:01		Leaving read_data method of stage_1 class
+2022-10-09/13:11:35		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/13:11:35		Data read successfully. Returning dataframe
+2022-10-09/13:11:35		Leaving read_data method of stage_1 class
+2022-10-09/15:25:11		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:25:11		Data read successfully. Returning dataframe
+2022-10-09/15:25:11		Leaving read_data method of stage_1 class
+2022-10-09/15:25:50		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:25:50		Data read successfully. Returning dataframe
+2022-10-09/15:25:50		Leaving read_data method of stage_1 class
+2022-10-09/15:32:56		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:32:56		Data read successfully. Returning dataframe
+2022-10-09/15:32:56		Leaving read_data method of stage_1 class
+2022-10-09/15:33:06		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:33:06		Data read successfully. Returning dataframe
+2022-10-09/15:33:06		Leaving read_data method of stage_1 class
+2022-10-09/15:37:03		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:37:03		Data read successfully. Returning dataframe
+2022-10-09/15:37:03		Leaving read_data method of stage_1 class
+2022-10-09/15:37:12		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:37:13		Data read successfully. Returning dataframe
+2022-10-09/15:37:13		Leaving read_data method of stage_1 class
+2022-10-09/15:44:52		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:44:52		Data read successfully. Returning dataframe
+2022-10-09/15:44:52		Leaving read_data method of stage_1 class
+2022-10-09/15:45:02		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:45:02		Data read successfully. Returning dataframe
+2022-10-09/15:45:02		Leaving read_data method of stage_1 class
+2022-10-09/15:49:43		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:49:43		Data read successfully. Returning dataframe
+2022-10-09/15:49:43		Leaving read_data method of stage_1 class
+2022-10-09/15:49:52		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:49:52		Data read successfully. Returning dataframe
+2022-10-09/15:49:52		Leaving read_data method of stage_1 class
+2022-10-09/15:50:55		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/15:50:55		Data read successfully. Returning dataframe
+2022-10-09/15:50:55		Leaving read_data method of stage_1 class
+2022-10-09/16:03:46		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/16:03:46		Data read successfully. Returning dataframe
+2022-10-09/16:03:46		Leaving read_data method of stage_1 class
+2022-10-09/16:03:55		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/16:03:56		Data read successfully. Returning dataframe
+2022-10-09/16:03:56		Leaving read_data method of stage_1 class
+2022-10-09/16:04:58		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/16:04:58		Data read successfully. Returning dataframe
+2022-10-09/16:04:58		Leaving read_data method of stage_1 class
+2022-10-09/16:17:22		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/16:17:22		Data read successfully. Returning dataframe
+2022-10-09/16:17:22		Leaving read_data method of stage_1 class
+2022-10-09/16:17:33		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/16:17:33		Data read successfully. Returning dataframe
+2022-10-09/16:17:33		Leaving read_data method of stage_1 class
+2022-10-09/16:18:52		Inside read_data method of stage_1 class >>> Started reading the given csv data.
+2022-10-09/16:18:52		Data read successfully. Returning dataframe
+2022-10-09/16:18:52		Leaving read_data method of stage_1 class

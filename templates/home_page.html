@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Output Tag</title>
+   </head>
+   <body>
+   <p>
+      <h1>Cross Sell Vehicle Insurance</h1>
+   </p>
+      <form action="/submit" method="post">
+
+         <tr>
+            <td><b>Gender : </b> </td>
+            <td>
+               <select name = 'gender' id="gender">
+                  <option value="Male">Male</option>
+                  <option value='Female'>Female</option>
+               </select>
+            </td>
+         </tr>
+         <br><br><br>
+
+         <tr>
+            <td><b>Age : </b></td>
+            <td>
+               <select name = 'age' id="age">
+                  <option value="Adolescence">Adolescence (15years to 20 years)</option>
+                  <option value='Early_adulthood'>Early_adulthood (21 years to 30 years)</option>
+                  <option value='Mid_life'>Mid_life (31 years to 39 years)</option>
+                  <option value='Mature_adulthood'>Mature_adulthood (40 years to 65 years)</option>
+                  <option value="Late_adulthood">Late_adulthood (66 years to 90 years)</option>
+
+               </select>
+            </td>
+         </tr>
+         <br><br><br>
+
+         <label><b>Region Code: </b></label><br>
+         <input type="text" name="region_code" value=""/><br><br><br>
+
+         <tr>
+            <td><b>Previously Insured : </b></td>
+            <td>
+               <select name = 'previously_insured' id="previously_insured">
+                  <option value="1">Yes (1)</option>
+                  <option value='0'>No (0)</option>
+                  <option value='unknown'>unknown</option>
+               </select>
+            </td>
+         </tr>
+         <br><br><br>
+
+         <tr>
+            <td><b>Vehicle Age: </b> </td>
+            <td>
+               <select name = 'vehicle_age' id="vehicle_age">
+                  <option value='< 1 Year'>Less than 1 year</option>
+                  <option value='1-2 Year'>1-2 years</option>
+                  <option value="> 2 Years">2 years or more</option>
+               </select>
+            </td>
+         </tr>
+         <br><br><br>
+
+         <tr>
+            <td><b>Any previous Vehicle Damage :</b></td>
+            <td>
+               <select name = 'vehicle_damage' id="vehicle_damage">
+
+                  <option value='Yes'>Yes</option>
+                  <option value='No'>No</option>
+               </select>
+            </td>
+         </tr>
+         <br><br><br>
+
+         <label><b>Annual Premium (float: 2630 to 540165): </b></label><br>
+         <input type="text" name="annual_premium" value=""/><br><br>
+
+         <tr>
+            <td><b>Policy Sales Channel : </b></td>
+            <td>
+               <select name = 'policy_sales_channel' id="policy_sales_channel">
+                  <option value="26.0">26</option>
+                  <option value='122.0'>122</option>
+                  <option value="124.0">124</option>
+                  <option value='151.0'>151</option>
+                  <option value="152.0">152</option>
+                  <option value='154.0'>154</option>
+                  <option value="156.0">156</option>
+                  <option value='157.0'>157</option>
+                  <option value="160.0">160</option>
+                  <option value='163.0'>163</option>
+                  <option value='other'>Other</option>
+               </select>
+            </td>
+         </tr>
+         <br><br><br>
+
+         <label><b>Vintage: </b></label><br>
+         <input type="text" name="vintage" value=""/><br><br><br>
+
+         <br>
+         <tr>
+            <td><input type="submit" value="Submit"></td>
+         </tr>
+
+      </form>
+   </body>
+</html>
