@@ -29,8 +29,8 @@ def result():
 
 
     # Loading pickle files
-    cat_encoder = pkl.load(open('D:/Ineuron/Project_workshop/Cross_Selling/Pickle/categorical_encoder.pkl', 'rb'))
-    model = pkl.load(open('D:/Ineuron/Project_workshop/Cross_Selling/Models/XGBClassifier.pkl', 'rb'))
+    cat_encoder = pkl.load(open('Pickle/categorical_encoder.pkl', 'rb'))
+    model = pkl.load(open('Models/XGBClassifier.pkl', 'rb'))
 
 
 
