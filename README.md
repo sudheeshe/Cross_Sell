@@ -140,7 +140,7 @@ Now lets see each column in detail
 
 #### Let's do Bi-Variate analysis between Independent columns with Target column
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/20_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/20_.jpg?raw=true)
 
 #### Let's check outliers using boxplot
 
@@ -161,3 +161,55 @@ Now lets see each column in detail
 - `Policy sales channel` shows a weak negative correlation with `target` column.
 - `Policy sales channel` and  `Previously_Insured column` shows correlation with Age column. which is a moderate multi-co-linearity in dataset.
 
+## Feature Engineering
+
+- Let's work on categorical features.
+#### Trying to experiment with Binning on categorical columns using KBinsDiscretizer
+
+column - Region_Code
+
+`strategy='quantile'`
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/22_.png?raw=true)
+
+`strategy='kmeans'`
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/23_.png?raw=true)
+
+column - Annual_Premium
+
+`strategy='quantile'`
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/24_.png?raw=true)
+
+`strategy='kmeans'`
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/25_.png?raw=true)
+
+column - Vintage
+
+`strategy='quantile'`
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/26_.png?raw=true)
+
+`strategy='kmeans'`
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/27_.png?raw=true)
+
+- From the above plots we are selecting `strategy='quantile'` for `Region_Code and Vintage` columns,
+Selecting `strategy='kmeans'` for `Annual_Premium` column.
+
+
+- On `Age` column I'm converting continuous value into 5 classes  
+            
+        1) Adolescence (15 to 20 years)
+        2) Early_adulthood (21 to 30 years)
+        3) Mid_life (31 to 39 years)
+        4) Mature_adulthood (40 to 65 years)
+        5) Late_adulthood (66 above)
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/28_.png?raw=true)
+
+- On `Policy_Sales_Channel` column I'm taking only top 10 categories, Remaining categories are combining to a single class called `other`
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/29_.png?raw=true)
