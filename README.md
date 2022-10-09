@@ -244,37 +244,37 @@ Selecting `strategy='kmeans'` for `Annual_Premium` column.
 
 - Confusion Matrix
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/32_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/34_.png?raw=true)
 
 - ROC Curve and precision-Recall Curve
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/33_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/35_.png?raw=true)
 
 ### 4) XGBoost
 
 - Classification Report
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/34_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/36_.png?raw=true)
 
 - Confusion Matrix
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/35_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/37_.png?raw=true)
 
 - ROC Curve and precision-Recall Curve
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/36_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/38_.png?raw=true)
 
 
 ### 5) LogisticRegression
 
 - Classification Report
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/37_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/39_.png?raw=true)
 
 - Confusion Matrix
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/38_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/40_.png?raw=true)
 
 - ROC Curve and precision-Recall Curve
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/39_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/41_.png?raw=true)
