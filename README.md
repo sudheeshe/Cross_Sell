@@ -169,15 +169,15 @@ Now lets see each column in detail
 column - Region_Code
 
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/22_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/22_.jpg?raw=true)
 
 column - Annual_Premium
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/23_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/23_.jpg?raw=true)
 
 column - Vintage
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/24_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/24_.jpg?raw=true)
 
 - From the above plots we are selecting `strategy='quantile'` for `Region_Code and Vintage` columns,
 Selecting `strategy='kmeans'` for `Annual_Premium` column.
