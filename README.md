@@ -196,3 +196,85 @@ Selecting `strategy='kmeans'` for `Annual_Premium` column.
 - On `Policy_Sales_Channel` column I'm taking only top 10 categories, Remaining categories are combining to a single class called `other`
 
 ![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/26_.png?raw=true)
+
+
+## Model Building and Evaluation
+
+- Used Logistic Regression, Random Forest, XGBoost and BalancedRandomForestClassifier initially
+- Random Forest and Logistic Regression were getting biased towards majority class.
+- SVC was taking more time for training, so due to lack of resource I've not used SVC.
+- XGBoost and BalancedRandomForestClassifier gave better result compared to Random Forest and Logistic Regression classifiers.
+- Results are below.
+
+### 1) DummyClassifier
+
+- Classification Report
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/27_.png?raw=true)
+
+- Confusion Matrix
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/28_.png?raw=true)
+
+- ROC Curve and precision-Recall Curve
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/29_.png?raw=true)
+
+
+### 2) RandomForestClassifier
+
+- Classification Report
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/30_.png?raw=true)
+
+- Confusion Matrix
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/31_.png?raw=true)
+
+- ROC Curve and precision-Recall Curve
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/32_.png?raw=true)
+
+
+### 3) BalancedRandomForestClassifier
+
+- Classification Report
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/33_.png?raw=true)
+
+- Confusion Matrix
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/32_.png?raw=true)
+
+- ROC Curve and precision-Recall Curve
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/33_.png?raw=true)
+
+### 4) XGBoost
+
+- Classification Report
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/34_.png?raw=true)
+
+- Confusion Matrix
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/35_.png?raw=true)
+
+- ROC Curve and precision-Recall Curve
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/36_.png?raw=true)
+
+
+### 5) LogisticRegression
+
+- Classification Report
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/37_.png?raw=true)
+
+- Confusion Matrix
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/38_.png?raw=true)
+
+- ROC Curve and precision-Recall Curve
+
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/39_.png?raw=true)
