@@ -199,8 +199,8 @@ Selecting `strategy='kmeans'` for `Annual_Premium` column.
 
 
 ## Model Building and Evaluation
-
-- Used Logistic Regression, Random Forest, XGBoost and BalancedRandomForestClassifier initially
+- Due to the Imbalance in target column we are using PR-AUC score for comparing model performances.
+- Used Logistic Regression, Random Forest, XGBoost and BalancedRandomForestClassifier initially.
 - Random Forest and Logistic Regression were getting biased towards majority class.
 - SVC was taking more time for training, so due to lack of resource I've not used SVC.
 - XGBoost and BalancedRandomForestClassifier gave better result compared to Random Forest and Logistic Regression classifiers.
@@ -278,3 +278,41 @@ Selecting `strategy='kmeans'` for `Annual_Premium` column.
 - ROC Curve and precision-Recall Curve
 
 ![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/41_.png?raw=true)
+
+## Final Results and Prediction
+
+- The model XGBoost have PR-AUC score 0.39 on training dataset and 0.35 on validation dataset 
+- The model BalancedRandomForestClassifier have PR-AUC score 0.51 on training dataset and 0.33 on validation dataset.
+- Since BalancedRandomForestClassifier have over-fitted the training data. I've used XGBoost for deployment
+
+##### 🔗 Find the deployment link on Heroku
+
+[click here]()
+
+##### 🔗 Project explanation video link
+
+[click here]()
+
+
+## References:
+
+#### Precision-Recall AUC vs ROC AUC for class imbalance problems 
+[click here](https://www.kaggle.com/general/7517)
+
+#### F1 Score vs ROC AUC vs Accuracy vs PR AUC: Which Evaluation Metric Should You Choose? 
+[click here](https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
+
+#### ROC Curves and Precision-Recall Curves for Imbalanced Classification 
+[click here](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification/)
+
+#### Unbalanced Data? Stop Using ROC-AUC and Use AU-PRC Instead 
+[click here](https://towardsdatascience.com/imbalanced-data-stop-using-roc-auc-and-use-auprc-instead-46af4910a494)
+
+#### Precision-Recall and Receiver Operating Characteristic Curves 
+[click here](https://datascience.oneoffcoder.com/precision-recall-roc.html)
+
+#### Let's evaluate classification model with ROC and PR curves. 
+[click here](https://www.linkedin.com/pulse/lets-evaluate-classification-model-roc-pr-curves-suravi-mahanta/)
+
+#### A Gentle Introduction to Threshold-Moving for Imbalanced Classification. 
+[click here](https://machinelearningmastery.com/threshold-moving-for-imbalanced-classification/)
