@@ -287,7 +287,7 @@ Selecting `strategy='kmeans'` for `Annual_Premium` column.
 
 ##### 🔗 Find the deployment link on Heroku
 
-[click here]()
+[click here](https://cross-sell-insurance-vehicle.herokuapp.com/)
 
 ##### 🔗 Project explanation video link
 
