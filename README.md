@@ -114,14 +114,14 @@ Now lets see each column in detail
 
 `Column - Policy_Sales_Channel`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/16_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/17_.png?raw=true)
 
 - This is as Anonymised Code for the channel of outreaching to the customer
 - Showing 155 distinct codes 
 
 `Column - Vintage`
 
-![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/17_.png?raw=true)
+![alt text](https://github.com/sudheeshe/Cross_Sell/blob/main/Images_for_readme/16_.png?raw=true)
 
 - Number of Days, Customer has been associated with the company
 - The histogram shows as uniform distribution of dataset
