@@ -199,7 +199,8 @@ Selecting `strategy='kmeans'` for `Annual_Premium` column.
 
 
 ## Model Building and Evaluation
-- Due to the Imbalance in target column we are using PR-AUC score for comparing model performances.
+
+- Due to the Imbalance in target column I've used `class weight` approach on all the algorithms except BalancedRandomForestClassifier, And also here I'm using `PR-AUC score` for comparing model performances.
 - Used Logistic Regression, Random Forest, XGBoost and BalancedRandomForestClassifier initially.
 - Random Forest and Logistic Regression were getting biased towards majority class.
 - SVC was taking more time for training, so due to lack of resource I've not used SVC.
